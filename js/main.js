@@ -1,0 +1,64 @@
+import { Car, Nation, Flower, Country, Teacher } from "./classes.js";
+
+let car = new Car("bmw", "classic A", 2008, "blue", "120 km");
+console.log(car);
+console.log(car.setBrand("mercedez"));
+console.log(car.getBrand());
+console.log(car.setType("B formal"));
+console.log(car.getType());
+console.log(car.setYear("1999 year"));
+console.log(car.getYear());
+console.log(car.setColor("red"));
+console.log(car.getColor());
+console.log(car.setDistance("10 km"));
+console.log(car.getDistance());
+
+let nation = new Nation("ivan", "russian", "white", "georgia", "russia");
+// console.log(nation);
+// console.log(nation.setName("damir"));
+// console.log(nation.getName());
+// console.log(nation.setNation1("american"));
+// console.log(nation.getNation1());
+// console.log(nation.setColor("black"));
+// console.log(nation.getColor());
+// console.log(nation.setAddress("michigan"));
+// console.log(nation.getAddress());
+// console.log(nation.setMotherland("new york"));
+// console.log(nation.getMotherland());
+
+let flower = new Flower("rayhon", 2, "1 m", "green", "good");
+// console.log(flower);
+// console.log(flower.setName("lola"));
+// console.log(flower.getName());
+// console.log(flower.setSort("1"));
+// console.log(flower.getSort());
+// console.log(flower.setHeight("3m"));
+// console.log(flower.getHeight());
+// console.log(flower.setColor("black"));
+// console.log(flower.getColor());
+
+let country = new Country("uzbekistan", "34 m", 69, "55 trillion", 88);
+// console.log(country);
+// console.log(country.setName("norway"));
+// console.log(country.getName());
+// console.log(country.setPopulation("6 m"));
+// console.log(country.getPopulation());
+// console.log(country.setAvarageAge("75"));
+// console.log(country.getAvarageAge());
+// console.log(country.setWealth("100 trillion"));
+// console.log(country.getWealth());
+// console.log(country.setRanking("15"));
+// console.log(country.getRanking());
+
+let teacher = new Teacher("bob", 38, "new york", "phd", "18 years");
+// console.log(teacher);
+// console.log(teacher.setName("alisher"));
+// console.log(teacher.getName());
+// console.log(teacher.setAge("45"));
+// console.log(teacher.getAge());
+// console.log(teacher.setAddress("tashkent"));
+// console.log(teacher.getAddress());
+// console.log(teacher.setQualification("bachelor"));
+// console.log(teacher.getQualification());
+// console.log(teacher.setExperience("10 years"));
+// console.log(teacher.getExperience());
